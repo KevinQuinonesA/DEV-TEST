@@ -8,6 +8,7 @@ I have done so far all of the backend part. I have some issues with the frontend
 - To run web page: ng serve en src/client
 
 #API
+
 //Get all the products
 GET http://localhost:3000/api/products HTTP/1.1
 
