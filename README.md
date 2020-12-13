@@ -55,4 +55,5 @@ FRONTEND - Not finished (70% -Integration of tickets is missing)
 - src: FrontEnd (Angular, Angular Material, FlexboxGrid, Bootstrap)
 
 Thanks for your Attention!!
+
 Contact: kquinonesa14@gmail.com  Kevin Quiñones
