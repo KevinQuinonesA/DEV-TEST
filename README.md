@@ -49,10 +49,10 @@ FRONTEND - Not finished (70% -Integration of tickets is missing)
 
 ##Structure
 
-images : Images of README
-node-modules : node-modules installed by npm
-server: Backend (Node, Express, MongoDB, Mongoose)
-src: FrontEnd (Angular, Angular Material, FlexboxGrid, Bootstrap)
+- images : Images of README
+- node-modules : node-modules installed by npm
+- server: Backend (Node, Express, MongoDB, Mongoose)
+- src: FrontEnd (Angular, Angular Material, FlexboxGrid, Bootstrap)
 
 Thanks for your Attention!!
-
+Contact: kquinonesa14@gmail.com  Kevin Quiñones
