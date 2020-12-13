@@ -3,34 +3,41 @@ In progress
 Developer Test - Product Helper
 I have done so far all of the backend part. I have some issues with the frontend in Angular but I can solve them.
 
-#Instructions
+##Instructions for instalation
 - To run server: npm run dev
 - To run web page: ng serve en src/client
 
-#API
+##API
 
-//Get all the products
+- Get all the products
+
 GET http://localhost:3000/api/products HTTP/1.1
 
-//Create a product
+- Create a product
+
 POST http://localhost:3000/api/products HTTP/1.1 Content-Type: application/json
 
-//Get a single product
+- Get a single product
+
 GET http://localhost:3000/api/products/5b0624a7abcb202a3af189b6 HTTP/1.1
 
-//Update a product
+- Update a product
+
 PUT http://localhost:3000/api/products/5b0624a7abcb202a3af189b6 Content-Type: application/json
 
-// Delete a product
+- Delete a product
+
 DELETE http://localhost:3000/api/products/5b0627e6edb8f82dcc1486ff
 
-//GET all processes of a product (Get Tickets By Product)
+- GET all processes of a product (Get Tickets By Product)
+
 GET http://localhost:3000/api/products/5b0624a7abcb202a3af189b6/processes
 
-//Create a process of a product (Create Ticket by Product)
+- Create a process of a product (Create Ticket by Product)
+
 POST http://localhost:3000/api/products/5b0624a7abcb202a3af189b6/processes HTTP/1.1 Content-Type: application/json
 
-FRONTEND - Not finished (70% -Integration of tickets)
+FRONTEND - Not finished (70% -Integration of tickets is missing)
 
 ![Ventana de producto](images/product-front.png)
 
@@ -40,7 +47,7 @@ FRONTEND - Not finished (70% -Integration of tickets)
 
 ![Progreso Front-End](images/front-progreso.png)
 
-#Structure
+##Structure
 
 images : Images of README
 node-modules : node-modules installed by npm
