@@ -37,7 +37,7 @@ GET http://localhost:3000/api/products/5b0624a7abcb202a3af189b6/processes
 
 POST http://localhost:3000/api/products/5b0624a7abcb202a3af189b6/processes HTTP/1.1 Content-Type: application/json
 
-FRONTEND - Not finished (70% -Integration of tickets is missing)
+FRONTEND - Not finished (85% - Some fixes are missing in the ticket module)
 
 ![Ventana de producto](images/product-front.png)
 
