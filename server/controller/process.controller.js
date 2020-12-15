@@ -11,8 +11,8 @@ processCtrl.getProcess = async(req, res,next) => {
 }
 processCtrl.createProcess =  async(req, res,next) => {
     const process=new Process({
-        name: req.body.name,
-        gdate: req.body.gdate
+        product: req.body.product,
+        state: req.body.state
       });
     await process.save();
     res.json({

@@ -3,16 +3,16 @@ const processCtrl= require('../controller/process.controller')
 const express = require("express");
 
 // GET All processes
-router.get('/processes', processCtrl.getProcesses);
+router.get('/products/:id/processes', processCtrl.getProcesses);
 // Single Process
-router.get('/processes/:id',processCtrl.getProcess);
+router.get('/products/:id/processes/:proid',processCtrl.getProcess);
 // Add a process
-router.post('/processes',processCtrl.createProcess);
+router.post('/products/:id/processes',processCtrl.createProcess);
 // Delete process
-router.delete('/processes/:id', processCtrl.deleteProcess);
+router.delete('/products/:id/processes/:proid', processCtrl.deleteProcess);
 
 // Update process
-router.put('/processes/:id', processCtrl.updateProcess);
+router.put('/products/:id/processes/:proid', processCtrl.updateProcess);
 
 
 module.exports = router;

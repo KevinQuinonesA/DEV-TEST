@@ -8,7 +8,7 @@ const ProductSquema =  new Schema({
     processes: [
         {
           type: Schema.Types.ObjectId,
-          ref: 'process',
+          ref: 'Process',
         },
       ]
 });

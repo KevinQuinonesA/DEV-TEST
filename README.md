@@ -45,7 +45,7 @@ FRONTEND - Not finished (70% -Integration of tickets is missing)
 
 ![Responsive Datepicker Front-End](images/responsive-design.png)
 
-![Progreso Front-End](images/front-progreso.png)
+![Progreso Front-End](images/front-prog.png)
 
 ##Structure
 

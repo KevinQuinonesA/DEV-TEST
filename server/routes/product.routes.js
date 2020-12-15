@@ -14,9 +14,4 @@ router.delete('/products/:id', productCtrl.deleteProduct);
 // Update product
 router.put('/products/:id', productCtrl.updateProduct);
 
-//// GET All processes of a product
-router.get('/products/:id/processes', productCtrl.getProductProcesses);
-
-//// Add a process of a product
-router.post('/products/:id/processes', productCtrl.createProductProcesses);
 module.exports = router;

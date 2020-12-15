@@ -1,11 +1,14 @@
 const express = require('express');
 const app=express();
 const cors=require('cors');
+require('./models/process');
+require('./models/product');
+const {mongoose}= require('./database'); 
 //const indexRoutes = require('./routes/index');
 const productRoutes = require('./routes/product.routes');
 const processRoutes = require('./routes/process.routes');
 const morgan = require('morgan');
-const {mongoose}= require('./database'); 
+
 
 //settings
 app.set('port', process.env.PORT ||3000);
